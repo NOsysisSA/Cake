@@ -1,0 +1,46 @@
+.intro {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  margin-top:2.5% ;
+  padding:10% 0 15% 0;
+  border-top: 1.5px solid black;
+}
+.text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 31px;
+    text-align: center;
+    padding-bottom: 11%;
+    color: brown;
+  }
+  .text h1{
+    color: #78401d;
+  }
+.button button{
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+.button{
+    margin-top: 40px;
+}
+.intro img {
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px;
+}
+
+.button button{
+  transition: 0.2s;
+}
+
+.button button:hover{
+  background-color: #bfbaba;
+  transform: scale(1.1);
+}

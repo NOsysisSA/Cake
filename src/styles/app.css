@@ -1,0 +1,9 @@
+.app{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #efd8f9;
+    padding: 0 15px 0 15px;
+}

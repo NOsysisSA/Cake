@@ -1,0 +1,11 @@
+.delivery{
+    display: flex;
+    margin-top: 10%;
+}
+.info h1,h2,p{
+    padding: 10px 0 10px 0;
+    color: brown;
+}
+.info h1{
+    color: #78401d;
+}

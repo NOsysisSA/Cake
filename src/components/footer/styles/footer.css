@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid black ;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+.footer-social-networks{
+    text-align: center;
+
+}
+.footer-social-networks a{
+    margin: 0 5px 0 5px;
+}
+.footer-social-networks img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+.footer-social-networks img:hover{
+    transform: scale(1.15);
+}
