@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../header/Logo'
-import Links from '../header/Links'
 import './styles/footer.css'
 function footer(scrollToSection) {
   return (
@@ -9,7 +8,6 @@ function footer(scrollToSection) {
             <Logo/>
         </div>
         <div className=' links-footer'>
-            <Links/>
         </div>
         <div className='footer-social-networks'>
             <h2>Social networks</h2>

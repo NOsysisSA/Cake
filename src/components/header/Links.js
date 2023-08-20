@@ -1,19 +1,19 @@
 import React from 'react'
 import './styles/link.css'
-function Links() {
+function Links({ handleLinkClick }) {
   return (
     <div className='links'>
         <div className='link'>
-            <a href='#'>About me</a>
+            <a onClick={() => handleLinkClick('#about')} >About me</a>
         </div>
         <div className='link'>
-            <a href='#'>Cataloge</a>
+            <a onClick={() => handleLinkClick('#catalog')} >Cataloge</a>
         </div>
         <div className='link'>
-            <a  href='#'>Delivery</a>
+            <a onClick={() => handleLinkClick('#delivery')} >Delivery</a>
         </div>   
         <div className='link'v>
-            <a href='#'>Contacts</a>
+            <a onClick={() => handleLinkClick('#footer')} >Contacts</a>
         </div>
             
     </div>
