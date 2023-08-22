@@ -8,6 +8,13 @@
     border-radius: 20px;
     padding: 15px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.info-product{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
 }
 .product h1 {
     text-align: center;
@@ -30,14 +37,6 @@
     font-size: 45px;
 }
 
-.more{
-    width: 50px;
-    height: 50px;
-    transition: 0.3s;
-}
-.button-more a{
-    color: black;
-}
 .button-more{
     border-radius: 50px;
     font-size: 20px;
@@ -46,7 +45,49 @@
     transition: 0.2s;
     border: 2px solid black;
 }
-.button-more:hover{
-    transform: scale(1.1);
-    background-color: #bdbdbd;
+.button-less a{
+    color: black;
+}
+.button-less{
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    margin-top: 30px;
+    transition: 0.2s;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: c;
+    
+}
+
+.buy-but{
+    transform: scale(1.5);
+    transition: 0.2s;
+}
+.buy-but:hover{
+    transform: scale(2.2)
+}
+.more, .less{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    padding: 15px 35px 15px 35px;
+    transition: 0.2s;
+    color: black;
+}
+
+
+.button-more,.button-less{
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.more:hover, .less:hover{
+    transform: scale(1.2);
+    background-color: #bdbbbb;
 }

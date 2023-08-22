@@ -3,7 +3,9 @@ import './styles/app.css'
 import Header from './components/header/Header'
 import Content from './components/content/Content'
 import Footer from './components/footer/Footer'
+import {BrowserRouter} from 'react-router-dom'
 function App() {
+  
   const handleLinkClick = (targetId) => {
     const targetElement = document.querySelector(targetId);
     if (targetElement) {
@@ -12,8 +14,10 @@ function App() {
   }
   return (
     <div className='app'>
-      <Header handleLinkClick={handleLinkClick}/>
-      <Content/>
+      <BrowserRouter> 
+        <Header handleLinkClick={handleLinkClick}/>
+        <Content handleLinkClick={handleLinkClick}/>
+      </BrowserRouter>
       <Footer/>
     </div>
   )

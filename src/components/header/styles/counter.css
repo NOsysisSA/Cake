@@ -6,6 +6,7 @@
     border-radius: 20px;
     background-color: brown;
     transition: 0.3s;
+    cursor:pointer;
 }
 .counter:hover{
     transform: scale(1.15);

@@ -9,6 +9,7 @@
     margin: 10px;
     transition: 0.3s;
     position: relative;
+    cursor: pointer;
 }
 a{
     text-decoration: none;

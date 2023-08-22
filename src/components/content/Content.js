@@ -3,12 +3,12 @@ import Delivery from './Delivery'
 import Catalog from './Catalog'
 import About from './About'
 import Intro from './Intro'
-function Content() {
+function Content( {handleLinkClick, hendClickForUpdatePrice, hendClickForUpdateNum} ) {
   return (
     <div>
-        <Intro/>
+        <Intro handleLinkClick={handleLinkClick}/>
         <About/>
-        <Catalog/>
+        <Catalog hendClickForUpdateNum={hendClickForUpdateNum} hendClickForUpdatePrice={hendClickForUpdatePrice}/>
         <Delivery/>
     </div>
   )

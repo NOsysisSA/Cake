@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/intro.css";
-function Intro() {
+function Intro( {handleLinkClick} ) {
   return (
     <div className="intro">
       <img
@@ -15,7 +15,7 @@ function Intro() {
           Here everyone will find a cheesecake for themselves
         </p>
         <div className="button"> 
-        <button>Go to catolog</button>
+        <button onClick={() => handleLinkClick('#catalog')}>Go to catolog</button>
         </div>
       </div>
     </div>
